@@ -1,0 +1,12 @@
+﻿<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<dx-data-grid #testListGrid
+						  id="testListGridContainer"
+						  [dataSource]="testList">
+				<dxi-column dataField="id" caption="ID" [width]="50"></dxi-column>
+				<dxi-column dataField="text" caption="Текст"></dxi-column>
+			</dx-data-grid>
+		</div>
+	</div>
+</div>
